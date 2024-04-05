@@ -1,4 +1,3 @@
-import myplots as myplt
 import time
 import warnings
 import numpy as np
@@ -9,13 +8,18 @@ from sklearn.neighbors import kneighbors_graph
 from sklearn.preprocessing import StandardScaler
 from itertools import cycle, islice
 import scipy.io as io
-from scipy.cluster.hierarchy import dendrogram, linkage  #
+from scipy.cluster.hierarchy import dendrogram, linkage
+import myplots as myplt
 
 # import plotly.figure_factory as ff
 import math
 from sklearn.cluster import AgglomerativeClustering
 import pickle
 import utils as u
+from sklearn.cluster import KMeans
+from matplotlib.backends.backend_pdf import PdfPages
+
+warnings.filterwarnings("ignore")
 
 
 # ----------------------------------------------------------------------

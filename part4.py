@@ -17,6 +17,7 @@ import pickle
 import utils as u
 from matplotlib.backends.backend_pdf import PdfPages
 from scipy.cluster.hierarchy import linkage as scipy_linkage
+warnings.filterwarnings("ignore")
 
 """
 Part 4.	

@@ -24,6 +24,7 @@ import math
 from sklearn.cluster import AgglomerativeClustering
 import pickle
 import utils as u
+warnings.filterwarnings("ignore")
 
 # ----------------------------------------------------------------------
 """
